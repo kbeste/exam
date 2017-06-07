@@ -19,7 +19,7 @@ class UserForm extends Component {
             })
             .catch(() => {
                 this.setState({
-                    error: 'Unrecognized username'
+                    error: 'Unknown username'
                 })
             })
     }

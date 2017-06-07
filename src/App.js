@@ -29,18 +29,14 @@ class App extends Component {
 
     render() {
       return (
-          <div className="App Container">
-            <h1>Github viewer!</h1>
+          <div className="AppContainer">
+              <h1>Github viewer!</h1>
 
-            <UserForm onSubmit={this.handleSearchFormSubmit} />
-            <RepoList />
-            <RepoDetails />
+              <UserForm onSubmit={this.handleSearchFormSubmit} />
+              <RepoList />
             
           </div>
-
-
-
-      );
+        );
     }
 }
 

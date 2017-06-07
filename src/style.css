@@ -1,3 +1,18 @@
+.AppContainer{
+	width: 500px;
+	/*border: thick black solid;*/
+	margin: auto auto;
+}
+
+.AppContainer h1{
+	text-align: left;
+}
+
+.userFormDetails p{
+	width: 200px;
+	margin: auto auto;
+}
+
 h1 {
 	text-align: center;
 }
