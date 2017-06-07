@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from './style.css';
+import { array } from 'prop-types'
 
-const RepoDetails = () => {
+const RepoDetails = (props) => {
     return (
 
         <div className="row">

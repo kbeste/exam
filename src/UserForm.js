@@ -23,7 +23,13 @@ class UserForm extends Component {
                 })
             })
     }
+
+
+
     render() {
+
+        {console.log("value entered " + this.state.searchTerm);} //pass back in order to display in repolist
+
         let potentialError = null;
         if (this.state.error) {
             potentialError = <p className="notification-box alert">{this.state.error}</p>

@@ -1,9 +1,22 @@
 import React from 'react';
 import styles from './style.css';
+import { array } from 'prop-types'
 
-const RepoList = () => {
+const RepoList = (props) => {
+    const tableRows = props.repos.map((repo) => {
+        return (
+            <tr key={repo.id}>
+                <td>{repo.name}</td>
+            </tr>
+        )
+    })
+
+// console.log("test " + {this.props.submitted} )
+// this.props.submitted
+
     return (
 
+        // if props.repos.is
         <div className='repoListDetails'>
             <h1>kbeste repositories</h1>
             <h4>Filter repos by primary language</h4>
@@ -19,22 +32,19 @@ const RepoList = () => {
             <table className="repoListTable" >
                 <thead>
                     <tr>
-                        <th>Name</th>
+                        <th>Repos</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>NM Exam</td>
-                    </tr>
-                    <tr>
-                        <td>Counter</td>
-                    </tr>
-                    <tr>
-                        <td>hello_dojo</td>
-                    </tr>
+                    {tableRows}
                 </tbody>
             </table>
         </div>
     )
 }
+
+RepoList.propTypes = {
+    repos: array.isRequired
+}
+
 export default RepoList;
