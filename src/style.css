@@ -1,0 +1,83 @@
+h1 {
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+}
+
+
+.userFormDetails{
+	width: 500px;
+	margin: auto auto;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.userFormDetails input{
+	width: 200px;
+	margin: auto auto;
+	margin-bottom: 25px;
+}
+
+.userFormDetails button{
+	width: 200px;
+}
+
+.repoListDetails{
+	margin-bottom: 25px
+}
+
+.repoListDetails select{
+	width: 100px;
+	margin: auto auto;
+}
+
+.repoListTable{
+	width: 300px;
+	margin:auto auto;
+	border: thin black solid;
+	margin-top: 15px
+}
+
+.repoListTable th{
+	background-color: grey;
+	font: black;
+	text-align: left;
+}
+
+.repoListTable td{
+	background-color: lightgrey;
+}
+
+.dojoDetails{
+	width: 500px;
+	height: auto;
+	border: thin black solid;
+	margin: auto auto;
+
+}
+
+.dojoDetails th {
+	background-color: grey;
+}
+
+.dojoDetails td {
+	background-color: lightgrey;
+}
+
+.dojoDetailsHeader {
+	text-align: center;
+
+}
+
+.dojoDetailsHeader h1{
+	display: inline-block;
+}
+
+.dojoDetailsHeader button {
+	display: inline-block;
+	margin-left: 45px;
+	height: 45px;
+}
+
